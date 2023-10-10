@@ -1,0 +1,18 @@
+/**All**/
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/**Body**/
+body{
+  background: radial-gradient(circle, #000331, #000000);
+  color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}

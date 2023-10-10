@@ -1,0 +1,45 @@
+/**banner**/
+.banner{
+    background-image: url("../../assets/bg.jpg");
+    width: 100vw;
+    background-position: right 0 top 0;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.322);
+    background-blend-mode: color;
+}
+.session{
+    padding: 300px 0 0 100px;
+}
+.banner p{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.banner p span{
+    background-color: rgba(15, 15, 204, 0.548);
+    padding: 15px;
+    color: white;
+    font-size: 40px;
+}
+
+/* Media query for smaller screens (e.g., screens with a max width of 768px) */
+@media (max-width: 768px) {
+    .banner {
+      height: 60vh; /* Adjust the height for smaller screens */
+    }
+  
+    .session {
+      padding: 150px 0 0 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .banner p {
+      font-size: 40px; /* Adjust font size for smaller screens */
+    }
+  
+    .banner p span {
+      padding: 15px; /* Adjust padding for smaller screens */
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  }

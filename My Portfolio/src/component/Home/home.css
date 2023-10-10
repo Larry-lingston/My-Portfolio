@@ -1,0 +1,71 @@
+.content{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.profilepic img{
+    width: 400px;
+    height: 400px;
+    padding: 30px 0 0 30px;
+}
+.profilepic{
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+}
+.content article{
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content article span{
+    color: rgb(0, 32, 216);
+}
+.homelinkitem{
+    background-image: url("../../assets/button.png");
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    padding-inline: 20px;
+    cursor: pointer;
+    color: white;
+}
+.homelink{
+    padding-top: 20px;
+    position: relative;
+    left: 80%;
+}
+
+/* Media query for smaller screens (e.g., screens with a max width of 768px) */
+@media (max-width: 768px) {
+    .content {
+      margin-top: 20px;
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .profilepic img {
+      width: 260px;
+      height: 260px;
+      padding: 20px 0 0 20px;
+    }
+  
+    .profilepic {
+      width: 250px;
+      height: 250px;
+      margin-left: 0;
+    }
+  
+    .content article {
+      width: 100%;
+      margin-top: 20px;
+      font-size: medium;
+    }
+  }
