@@ -21,6 +21,9 @@
     overflow-x: scroll;
     white-space: nowrap;
 }
+.cardholder::-webkit-scrollbar{
+    height: 0px;
+}
 .itemcard{
     min-width: 25rem;
     max-height: 70%;
