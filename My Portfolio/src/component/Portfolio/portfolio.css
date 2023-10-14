@@ -3,7 +3,7 @@
     color: white;
 }
 .section1{
-    margin: 20%;
+    margin: 10%;
 }
 .section1 h2{
     text-align: center;
@@ -30,3 +30,44 @@
 .taginfo h3{
     margin-bottom: 5px;
 }
+.centerheader{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+.section2{
+    text-align: left;
+    width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: radial-gradient(circle,#000331, #000000);
+}
+.section2 p{
+    padding-top: 5%;
+}
+.section3{
+    margin-bottom: 5rem;
+}
+.section3 h2{
+    margin-top: 3%;
+}
+.archivetagholder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-inline: 5%;
+}
+.archivetag{
+    width: 44%;
+    height: 19rem;
+    background-color: rgb(8, 8, 8);
+    margin: 2.5%;
+    margin-top: 5%;
+}
+.tagimg{
+    width: 90%;
+    margin: 5%;
+    height: 16rem;
+}
+

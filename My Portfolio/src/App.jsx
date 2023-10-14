@@ -4,6 +4,8 @@ import Banner from "./component/Banner/banner"
 import Home from "./component/Home/home"
 import AboutMe from "./component/AboutMe/aboutme"
 import Portfolio from "./component/Portfolio/portfolio"
+import Contact from "./component/Contact/contact"
+import Footer from './component/Footer/footer'
 import './App.css'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Home />
       <AboutMe />
       <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   )
 }

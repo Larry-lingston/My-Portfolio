@@ -1,0 +1,29 @@
+.contacttag{
+    background-color: rgb(5, 1, 14);
+    width: 87%;
+    height: 15rem;
+    margin-inline: 5rem;
+    display: flex;
+}
+.tag1{
+    width: 60%;
+    padding: 4rem;
+}
+.tag1 h1{
+    margin-bottom: 3px;
+}
+.tag2{
+    width: 40%;
+    padding: 4rem;
+    padding-top: 5rem;
+    padding-inline-start: 6rem;
+}
+button{
+    background-color: rgb(2, 2, 73);
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}

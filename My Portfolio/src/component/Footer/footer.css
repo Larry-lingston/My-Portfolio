@@ -1,0 +1,11 @@
+.footer{
+    background-color: rgb(5, 1, 14);
+    height: 15rem;
+    margin-top: -5rem;
+    width: 100vw;
+}
+.footerinfo{
+    padding-top: 12rem;
+    padding-inline: 5rem;
+    display: flex;
+}

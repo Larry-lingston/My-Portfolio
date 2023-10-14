@@ -14,28 +14,28 @@ const Navbar = () => {
                 to='home'
                 spy={true}
                 smooth={true}
-                offset={-10}
+                offset={-30}
                 duration={500}>Home</Link>
             
             <Link className='linkitem'
                 to='aboutme'
                 spy={true}
                 smooth={true}
-                offset={-10}
+                offset={-30}
                 duration={500}>AboutMe</Link>
             
             <Link className='linkitem'
                 to='portfolio'
                 spy={true}
                 smooth={true}
-                offset={-10}
+                offset={-60}
                 duration={500}>Portfolio</Link>
                 
              <Link className='linkitem'
                 to='contact'
                 spy={true}
                 smooth={true}
-                offset={-10}
+                offset={-30}
                 duration={500}>Contact</Link>
         </div>
     </nav>
