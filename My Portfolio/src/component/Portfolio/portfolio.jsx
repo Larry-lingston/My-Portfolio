@@ -1,6 +1,13 @@
 import React from 'react'
 import './portfolio.css'
 import UI from '../../assets/ui.png'
+import Adobe from '../../assets/adobe.png'
+import Appdev from '../../assets/app-design.png'
+import Microsoft from '../../assets/microsoft.png'
+import Archive1 from '../../assets/portfolio-1.png'
+import Archive2 from '../../assets/portfolio-2.png'
+import Archive3 from '../../assets/portfolio-3.png'
+import Archive4 from '../../assets/portfolio-4.png'
 
 const Portfolio = () => {
   return (
@@ -18,21 +25,21 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="skilltag">
-          <img src={UI} alt="UI Design" className='taglogo' />
+          <img src={Adobe} alt="UI Design" className='taglogo' />
           <div className='taginfo'>
             <h3>UI/UX Designer</h3>
             <p>I am a well taught ui/ux designer!</p>
           </div>
         </div>
         <div className="skilltag">
-          <img src={UI} alt="UI Design" className='taglogo' />
+          <img src={Appdev} alt="UI Design" className='taglogo' />
           <div className='taginfo'>
             <h3>UI/UX Designer</h3>
             <p>I am a well taught ui/ux designer!</p>
           </div>
         </div>
         <div className="skilltag">
-          <img src={UI} alt="UI Design" className='taglogo' />
+          <img src={Microsoft} alt="UI Design" className='taglogo' />
           <div className='taginfo'>
             <h3>UI/UX Designer</h3>
             <p>I am a well taught ui/ux designer! lorem10</p>
@@ -50,33 +57,30 @@ const Portfolio = () => {
       <div className="section2">
         <>
         <p>
-          Agbozo Theodore <br />
-          [Your Address]<br />
-          [City, State ZIP Code]<br />
-          [Your Email Address]<br />
-          [Your Phone Number]<br />
-          [LinkedIn Profile URL (if applicable)]<br />
+          Agbozo Theodore<br />
+          P.O.Box 998<br />
+          Ho, +223<br />
+          theodoreagbozo87@gmail.com<br />
+          0542916443<br /><br />
           Objective:
           Dedicated and highly skilled tech professional with a passion for solving complex problems and a proven track record of success in [mention specific area of expertise, e.g., software development, network administration, cybersecurity]. Seeking a challenging role in a dynamic organization to contribute my technical expertise and drive innovation.
           Education:<br />
-          [Degree Earned, e.g., Bachelor of Science in Computer Science]<br />
-          [University Name]<br />
-          [Location]<br />
-          [Year of Graduation, e.g., 20XX]<br />
+          HND in Computer Science<br />
+          Ho Technical University<br />
+          Ho<br />
+          2024<br /><br />
           Skills:<br />
-          - Programming Languages: [List relevant languages, e.g., Java, Python, C++]<br />
-          - Web Development: [List relevant technologies, e.g., HTML, CSS, JavaScript]<br />
-          - Database Management: [List relevant databases, e.g., SQL, MongoDB]<br />
-          - Operating Systems: [List relevant systems, e.g., Windows, Linux]<br />
-          - Networking: [List relevant skills, e.g., TCP/IP, DNS, LAN/WAN]<br />
-          - Security: [List relevant skills, e.g., firewall management, threat detection]<br />
-          - Tools and Software: [List relevant tools and software, e.g., Git, JIRA]<br />
-          - Problem Solving: [Mention your problem-solving skills and any specific methodologies you use]<br />
+          - Programming Languages: Java, Python, C++,CSharp<br />
+          - Web Development:  HTML, CSS, JavaScript, React, Tailwind CSS<br />
+          - Database Management:SQL<br />
+          - Operating Systems: Windows, Linux<br />
+          - Networking: TCP/IP, DNS, LAN/WAN<br />
+          - Tools and Software: Git<br />
           Professional Experience:<br />
-          [Job Title]<br />
-          [Company Name]<br />
-          [Location]<br />
-          [Dates of Employment, e.g., Month Year - Month Year]<br />
+          Intern<br />
+          Trebnet<br />
+          Ho<br />
+          1st October 2023-16th December 2023<br /><br />
 
           - Describe your key responsibilities, achievements, and projects related to this role.<br />
           - Use bullet points to make your accomplishments and skills clear and concise.<br />
@@ -110,39 +114,31 @@ const Portfolio = () => {
         <h2 className='centerheader'>Achievements</h2>
         <div className="archivetagholder">
           <div className="archivetag">
-            <div className="tagimg">
-              <img src="" alt="" />
-            </div>
+              <img src={Archive1} alt="" className="tagimg"/>
             <p>
-              <h3>[Tag Name]</h3>
-              <span>read more</span>
+              <h3>Portfolio Page</h3>
+              <span>Explore</span>{/* All spans are going to be changed to links*/}
             </p>
           </div>
           <div className="archivetag">
-            <div className="tagimg">
-              <img src="" alt="" />
-            </div>
+              <img src={Archive2} alt="" className="tagimg"/>
             <p>
-              <h3>[Tag Name]</h3>
-              <span>read more</span>
+            <h3>Portfolio Page</h3>
+              <span>Explore</span>{/* All spans are going to be changed to links*/}
             </p>
           </div>
           <div className="archivetag">
-            <div className="tagimg">
-              <img src="" alt="" />
-            </div>
+              <img src={Archive3} alt="" className="tagimg"/>
             <p>
-              <h3>[Tag Name]</h3>
-              <span>read more</span>
+            <h3>Portfolio Page</h3>
+              <span>Explore</span>{/* All spans are going to be changed to links*/}
             </p>
           </div>
           <div className="archivetag">
-            <div className="tagimg">
-              <img src="" alt="" />
-            </div>
+              <img src={Archive4} alt="" className="tagimg"/>
             <p>
-              <h3>[Tag Name]</h3>
-              <span>read more</span>
+            <h3>Portfolio Page</h3>
+              <span>Explore</span>{/* All spans are going to be changed to links*/}
             </p>
           </div>
         </div>

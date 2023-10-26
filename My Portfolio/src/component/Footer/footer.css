@@ -1,11 +1,12 @@
 .footer{
-    background-color: rgb(5, 1, 14);
+    background-color: rgb(3, 3, 73);
     height: 15rem;
     margin-top: -5rem;
     width: 100vw;
 }
 .footerinfo{
     padding-top: 12rem;
-    padding-inline: 5rem;
+    padding-inline: 20rem;
     display: flex;
+    justify-content: space-between;
 }
