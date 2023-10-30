@@ -1,4 +1,5 @@
 import React from 'react'
+import OpenGmailButton from '../mailto';
 import './contact.css'
 
 const Contact = () => {
@@ -14,7 +15,7 @@ const Contact = () => {
                 </p>
            </div>
            <div className="tag2">
-                <button>Contact Me</button>
+                <OpenGmailButton />
            </div>
         </div>
     </div>

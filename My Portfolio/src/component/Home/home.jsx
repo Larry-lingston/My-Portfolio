@@ -16,7 +16,7 @@ const Home = () => {
                 <p>For more about me click on the link below</p>
                 <p className='homelink'><Link className='homelinkitem' to='aboutme' smooth='true' offset={-10} spy='true' duration={1000}>About Me</Link></p>
             </article>
-        </main>
+      </main>
     </div>
   )
 }

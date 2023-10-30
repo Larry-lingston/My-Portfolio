@@ -65,7 +65,7 @@
     width: 40%;
     height: 19rem;
     background-color: rgb(4, 2, 107);
-    margin: 2.5%;
+    margin: 5%;
     margin-top: 5%;
     border-radius: 10px;
 }
@@ -79,3 +79,36 @@
 .fontsize{
     font-size: large;
 }
+@media (max-width: 768px) {
+    .section1 {
+      margin: 2%; /* Further reduce margin for small screens */
+    }
+  
+    .section1 p {
+      margin-bottom: 5%;
+    }
+    .section3 p {
+      margin-bottom: 5%;
+      text-align: center;
+    }
+  
+    .taglogo {
+      width: 60px;
+      height: 60px;
+      margin-right: 3%;
+      margin-left: 2%;
+    }
+  
+    .section2 {
+      padding: 5% 5%;
+    }
+  
+    .section2 p {
+      padding-top: 5%;
+    }
+  
+    .archivetag {
+      width: 90%; /* Adjust width for small screens */
+      background-color: transparent;
+    }
+  }

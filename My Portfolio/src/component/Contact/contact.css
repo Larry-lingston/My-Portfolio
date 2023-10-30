@@ -2,30 +2,30 @@
     background-color: rgb(3, 3, 73);
     width: 87%;
     height: 10rem;
-    margin-inline: 5rem;
+    margin-inline: auto;
     display: flex;
     border-radius: 10px;
 }
 .tag1{
     width: 60%;
-    padding: 4rem;
+    padding-top: 10%;
+    padding-inline-start: 2%;
 }
 .tag1 h1{
     margin-bottom: 3px;
 }
 .tag2{
     width: 40%;
-    padding: 4rem;
     padding-top: 5rem;
-    padding-inline-start: 6rem;
 }
 button{
-    background-color: rgb(2, 2, 73);
-    width: 10rem;
+    background-color: transparent;
+    width: 12rem;
+    margin-top: 1.5rem;
     height: 3rem;
     border: none;
     color: white;
     font-weight: bold;
-    font-size: large;
+    font-size: 1.5rem;
     cursor: pointer;
 }

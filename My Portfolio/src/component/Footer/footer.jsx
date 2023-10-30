@@ -10,11 +10,11 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footerinfo">
-          <span><FaGithub />Github</span>
-          <span><FaYoutube />Youtube</span>
-          <span><FaInstagram />Instagram</span>
-          <span><FaTwitter />Twitter</span>
-          <span><FaFacebook />Facebook</span>
+          <FaGithub />
+          <FaYoutube />
+          <FaInstagram />
+          <FaTwitter />
+          <FaFacebook />
         </div>
     </div>
   )
