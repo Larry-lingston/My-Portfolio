@@ -14,9 +14,11 @@ body{
   overflow-y: scroll;
   margin: 0;
   font-family: 'poppins', sans-serif;
+  width: 100vw;
 
 }
 h3{
   cursor: default;
 }
+
 
