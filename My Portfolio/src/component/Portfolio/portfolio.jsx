@@ -8,6 +8,7 @@ import Archive1 from '../../assets/portfolio-1.png'
 import Archive2 from '../../assets/portfolio-2.png'
 import Archive3 from '../../assets/portfolio-3.png'
 import Archive4 from '../../assets/portfolio-4.png'
+import Profile from '../../assets/profile.jpg'
 import { useState } from 'react'
 import {FaPhone,FaEnvelope,FaLocationDot,FaLinkedin,FaBasketball,FaGamepad} from 'react-icons/fa6'
 import {SiSimkl} from 'react-icons/si'
@@ -18,7 +19,7 @@ const Portfolio = () => {
     const email='theodorianagbozo@gmail.com';
     const location= 'Ghana, Accra, P.O.Box 998';
     const linkedin= 'https://linkedin/theodore-agbozo';
-    const profilepic = <img src={Archive1} alt="" srcset="" />;
+    const profilepic = <img src={Profile} alt="" srcset="" />;
     const englishprogressbar = {width: '90%'};
     const japanprogressbar = {width: '10%'};
     const eweprogressbar = {width: '50%'};
@@ -37,17 +38,17 @@ const Portfolio = () => {
     const psprogressbar = {width: '50%'};
     
     const [whatido,setwhatido]=useState([
-    {img:<img src={UI} alt="UI Design" className='taglogo' /> ,title:'UI/UX Designer',content:'I am a well taught ui/ux designer!',id:1},
-    {img:<img src={Adobe} alt="UI Design" className='taglogo' /> ,title:'UI/UX Designer',content:'I am a well taught ui/ux designer!',id:2},
-    {img:<img src={Appdev} alt="UI Design" className='taglogo' /> ,title:'UI/UX Designer',content:'I am a well taught ui/ux designer!',id:3},
-    {img:<img src={Microsoft} alt="UI Design" className='taglogo' /> ,title:'UI/UX Designer',content:'I am a well taught ui/ux designer!',id:4},
-    {img:<img src={UI} alt="UI Design" className='taglogo' /> ,title:'UI/UX Designer',content:'I am a well taught ui/ux designer!',id:5}
+    {img:<img src={UI} alt="UI Design" className='taglogo' /> ,title:'UI Design',content:'I am a well taught ui/ux designer!',id:1},
+    {img:<img src={Adobe} alt="Adobe Design" className='taglogo' /> ,title:'Adobe Design',content:'I edit for fun!',id:2},
+    {img:<img src={Appdev} alt="App Developer" className='taglogo' /> ,title:'App Developer',content:'I am a well taught App Dev!',id:3},
+    {img:<img src={Microsoft} alt="Microsoft Engineer" className='taglogo' /> ,title:'Microsoft Engineer',content:'I know a bit about Microsoft!',id:4},
+    {img:<img src={UI} alt="Video Editor" className='taglogo' /> ,title:'Video Editor',content:'I am a video edditor!',id:5}
   ]);
   const [achievements,setachievements]=useState([
-    {img: <img src={Archive1} alt="" className="tagimg"/>,title:'Portfolio Page',linktext:'Explore',id:6},
-    {img: <img src={Archive2} alt="" className="tagimg"/>,title:'Portfolio Page',linktext:'Explore',id:7},
-    {img: <img src={Archive3} alt="" className="tagimg"/>,title:'Portfolio Page',linktext:'Explore',id:8},
-    {img: <img src={Archive4} alt="" className="tagimg"/>,title:'Portfolio Page',linktext:'Explore',id:9},
+    {img: <img src={Archive1} alt="" className="tagimg"/>,linktext:'https://simple-ui-webpage-react.vercel.app/',link:<a href='https://simple-ui-webpage-react.vercel.app/'>Simple UI Page ViVo</a>,id:6},
+    {img: <img src={Archive2} alt="" className="tagimg"/>,linktext:'https://beginner-s-luck-estate.vercel.app/',link:<a href='https://beginner-s-luck-estate.vercel.app/'>Estate Page</a>,id:7},
+    {img: <img src={Archive3} alt="" className="tagimg"/>,linktext:'https://beginner-s-luck-estate.vercel.app/luxurious%20homes.html',link:<a href='https://beginner-s-luck-estate.vercel.app/luxurious%20homes.html'>Home4sale Page</a>,id:8},
+    {img: <img src={Archive4} alt="" className="tagimg"/>,linktext:'https://personal-tasks.vercel.app/',link:<a href='https://personal-tasks.vercel.app/'>AlexaPage</a>,id:9},
   ]);
   const [edu, setedu]=useState([
     {year:'2021-2024', degree:'HND in ComputerScience', university:'HO Technical University', id:10},
@@ -305,8 +306,7 @@ const Portfolio = () => {
         <div className="archivetag" key={variable.id}>
           {variable.img}
           <p>
-            <h3>{variable.title}</h3>
-            <span>{variable.linktext}</span>
+            <h3>{variable.link}</h3>
           </p>
         </div>
         ))}

@@ -58,6 +58,12 @@
     margin-top: 5%;
     border-radius: 10px;
 }
+.archivetag h3 a{
+    color: white;
+}
+.archivetag h3 a:hover{
+    color: rgb(36, 36, 75);
+}
 .tagimg{
     width: 100%;
     margin-left: 5%;
