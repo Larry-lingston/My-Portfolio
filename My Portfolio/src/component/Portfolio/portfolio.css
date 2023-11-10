@@ -4,6 +4,7 @@
 }
 .section1{
     margin: 10%;
+    margin-top: 0;
 }
 .section1 h2{
     text-align: center;
@@ -37,18 +38,6 @@
     margin-bottom: 5%;
     cursor: default;
 }
-.section2{
-    text-align: left;
-    width: 100vw;
-    word-wrap: n;
-    padding-left: 20%;
-    padding-right: 10%;
-    background: radial-gradient(circle,#000331, #000000);
-}
-.section2 p{
-    padding-top: 5%;
-    width: 80%;
-}
 .section3{
     margin-bottom: 5rem;
 }
@@ -79,6 +68,198 @@
 .fontsize{
     font-size: large;
 }
+.section2{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: radial-gradient(circle,#0d1580, #000000);
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+}
+.left_side{
+    padding: 40px;
+    position: relative;
+    background-color: rgb(7, 56, 78);
+}
+.right_side{
+    padding: 40px;
+    position: relative;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight: 600;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+}
+.imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.info{
+    padding-top: 40px;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.info ul{
+    text-decoration: none;
+}
+.info ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor: default;
+    list-style: none;
+}
+.icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #07dfb0 ;
+}
+.info ul li span{
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.info ul li p{
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+.info ul li p:nth-child(3){
+    color: rgba(255, 255, 255, 0.582);
+}
+.percent{
+    width: 100%;
+    position: relative;
+    height: 8px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #0d1580;
+    border-radius: 2px;
+}
+.right_side h1{
+    color: rgb(7, 56, 78);
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.right_side h1:nth-child(1){
+    margin-top: 0px;
+}
+.exp{
+    display: grid;
+    font-weight: 520;
+    color: rgba(0, 0, 0, 0.911);
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 2fr;
+}
+.exp div{
+    color: rgba(0, 0, 0, 0.836);
+    font-weight: 600;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.skill p{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.596);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skill span{
+    margin-top: 14px;
+}
+.right-side{
+    position: relative;
+}
+.left-side{
+    position: relative;
+}
+.interest{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.interest p span{
+    color:#093042;
+}
+
+@media (max-width:900px) {
+    .container{
+        display: flex;
+        flex-direction: column  ;
+    }
+}
+@media (max-width:600px) {
+    .exp{
+        display: flex;
+        flex-direction: column  ;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column  ;
+    }
+    .skill p{
+        margin-bottom: 5px;
+    }
+    .skill span{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
 @media (max-width: 768px) {
     .section1 {
       margin: 2%; /* Further reduce margin for small screens */
@@ -99,16 +280,17 @@
       margin-left: 2%;
     }
   
-    .section2 {
-      padding: 5% 5%;
-    }
-  
-    .section2 p {
-      padding-top: 5%;
-    }
-  
     .archivetag {
       width: 90%; /* Adjust width for small screens */
       background-color: transparent;
+    }
+  }
+  @media (max-width: 600px) {
+    .tagimg{
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 5%;
+        height: 15rem;
+        border-radius: 10px;
     }
   }
